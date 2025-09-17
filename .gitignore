@@ -1,9 +1,0 @@
-
-/.metadata/
-/target/
-*.class
-*.log
-.idea/
-*.iml
-/bin/
-
