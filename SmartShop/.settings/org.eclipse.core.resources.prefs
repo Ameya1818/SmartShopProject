@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/com/smartshop/admin/ProductManagement.java=UTF-8
+encoding//src/com/smartshop/admin/PurchaseHistory.java=UTF-8
+encoding//src/com/smartshop/admin/UserManagement.java=UTF-8
+encoding//src/com/smartshop/dao/ProductDAO.java=UTF-8
+encoding//src/com/smartshop/dao/PurchaseDAO.java=UTF-8
+encoding//src/com/smartshop/main/Application.java=UTF-8
+encoding//src/com/smartshop/model/Product.java=UTF-8
+encoding//src/com/smartshop/service/CartService.java=UTF-8
+encoding//src/com/smartshop/service/ProductService.java=UTF-8
+encoding//src/com/smartshop/service/PurchaseService.java=UTF-8
+encoding//src/com/smartshop/service/UserService.java=UTF-8
