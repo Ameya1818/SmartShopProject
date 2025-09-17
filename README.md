@@ -54,10 +54,22 @@ CREATE DATABASE smartshop;
 -- Exit MySQL
 EXIT;
 ```
+- **Using MySQL Workbench:** 
+  - Open MySQL Workbench and connect to your local server.
+  - Click on Create a new schema and name it smartshop.
+  - Apply changes to create the schema
+    
 ### 3. Import the database dump
 ```
 mysql -u <username> -p smartshop < SmartShopDB.sql
 ```
+- **Using MySQL Workbench:**
+  - Select the smartshop schema.
+  - Go to Server > Data Import.
+  - Choose Import from Self-Contained File and select SmartShopDB.sql.
+  - Select Dump Structure and Data.
+  - Click Start Import.
+  
 ### Default Admin Credentials
   - Username: admin
   - Password: admin123
@@ -75,6 +87,7 @@ Use these credentials to access the admin menu after login.
 Admin users will see additional menu options
 
 ### Project Structure
+```
 SmartShopProject/
 ├─ src/
 │  ├─ com.smartshop.admin/       # Admin operations
@@ -84,5 +97,5 @@ SmartShopProject/
 │  └─ com.smartshop.main/        # Main application entry
 ├─ SmartShopDB.sql               # MySQL database dump
 └─ README.md                     # Project documentation
-
+```
 
